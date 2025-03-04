@@ -14,7 +14,7 @@
         <div class="col-6 shadow p-3 mt-5 bg-white rounded" style="transform: translate(0, 50%);">
             <form action="">
                 <h1 class="text-success h2 mt-4">EMPLOYEES FORM BOOTSTRAP</h1>
-                <h1 class="text-bg-info h1 mb-4 border border-white rounded">Welcome to SU14.23</h1>
+                <h2 class="text-bg-info h1 mb-4 border border-white rounded"><?php include 'connection.php' ?></h2>
 
                 <!-- Inputs -->
                 <input class="form-control mb-3" type="text" name="employee_name" placeholder="Enter your name" required>

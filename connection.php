@@ -4,11 +4,11 @@
     $hostname = 'localhost';
     $username = 'mengkheang';
     $password = '123';
-    $dbname ='db_kryonic';
+    $db_name ='db_kryonic';
     $port = '3306';
 
     //Create a new MySQL Connection
-    $connection = new mysqli($hostname, $username, $password, $dbname, $port);
+    $connection = new mysqli($hostname, $username, $password, $db_name, $port);
     if ($connection->connect_error){
         echo "failed to connect to the database";
     }else{
