@@ -1,5 +1,5 @@
 <!-- Create Connection to MySQL -->
- <?php
+<?php
     //Declare Variables to the Connection Object
     $hostname = 'localhost';
     $username = 'mengkheang';
@@ -14,4 +14,4 @@
     }else{
         echo "successfully connected to the database";
     }
- ?>
+?>
