@@ -11,16 +11,19 @@
 </head>
 <body>
     <center>
-        <div class="col-6 shadow p-3 mt-5 bg-white rounded" style="transform: translate(0, 50%);">
-            <form action="">
+        <div class="col-6 shadow p-3 mt-5 bg-white rounded" style="transform: translate(0, 20%);">
+            <form action="connectionDB.php" method="post">
                 <h1 class="text-success h2 mt-4">EMPLOYEES FORM BOOTSTRAP</h1>
                 <h2 class="text-bg-info h1 mb-4 border border-white rounded"><?php include 'connection.php' ?></h2>
 
                 <!-- Inputs -->
-                <input class="form-control mb-3" type="text" name="employee_name" placeholder="Enter your name" required>
-                <input class="form-control mb-3" type="number" name="employee_salary" placeholder="Enter your salary" required>       
-                <input class="form-control mb-3" type="date" name="hire_date" placeholder="Enter your hire date" required>
-                
+                <input class="form-control mb-3" type="text" name="inputName" placeholder="Enter your name" required>
+                <input class="form-control mb-3" type="text" name="inputAddress" placeholder="Enter your address" required>
+                <input class="form-control mb-3" type="date" name="inputHireDate" placeholder="Enter your hire date" required>
+                <input class="form-control mb-3" type="text" name="inputEmail" placeholder="Enter your email" required>
+                <input class="form-control mb-3" type="text" name="inputPosition" placeholder="Enter your position" required>
+                <input class="form-control mb-3" type="number" name="inputSalary" placeholder="Enter your salary" required>       
+
                 <!-- Buttons -->
                 <div class="d-flex">
                     <button class="btn btn-success w-100 me-2" type="submit">Submit</button>

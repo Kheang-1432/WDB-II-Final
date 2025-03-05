@@ -12,6 +12,6 @@
     if ($connection->connect_error){
         echo "failed to connect to the database";
     }else{
-        echo "successfully connected to the database";
+        echo "Connection Active";
     }
 ?>
