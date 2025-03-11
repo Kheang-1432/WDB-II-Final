@@ -21,6 +21,10 @@
         }else{
             echo "Failed to add data to the database ";
         }
+
+        // Call DataTable.php
+        header('Location: ListData.php');
+
         $stmt->close();
         $connection->close();
     }
